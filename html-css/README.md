@@ -186,7 +186,7 @@ Omnifood works with **any** diet:
 
 | | |
 |---|---|
-| 📍 **Address** | 623 Harrison St., 2nd Floor, San Francisco, CA 94107 |
+📍 **Address** | 123 Your Street, Gulberg III, Lahore, Punjab 54000, Pakistan
 | 📞 **Phone** | 415-201-6370 |
 | 📧 **Email** | hello@omnifood.com |
 | 📱 **Social** | Instagram · Facebook · Twitter |
@@ -208,7 +208,7 @@ Omnifood works with **any** diet:
 
 <div align="center">
 
-Made with ❤️ by the Omnifood team · San Francisco, CA
+Made with ❤️ by the Abid Ali · Lahore, Punjab
 
 ![](https://img.shields.io/badge/AI--Powered-Meal_Planning-e67e22?style=flat-square)
 ![](https://img.shields.io/badge/Delivering-Healthy_Lives-27ae60?style=flat-square)
