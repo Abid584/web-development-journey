@@ -11,6 +11,7 @@ from absolute beginner to full-stack capable.
 - html-css/ : Projects and practice files from the HTML & CSS course
 - javascript/ : Topic-wise practice files and projects from the JS course
 - react/ : Coming soon
+- Mern/ : Coming soon
 
 ## Note
 Every file here was written and practiced by me personally,
