@@ -182,7 +182,7 @@ Omnifood works with **any** diet:
 
 ---
 
-## 📬 Contact
+## 📬 Contact 
 
 | | |
 |---|---|
