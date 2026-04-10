@@ -16,6 +16,6 @@ from absolute beginner to full-stack capable.
 ## Note
 Every file here was written and practiced by me personally,
 not copied from tutorials.
-
+ 
 ## Connect
 LinkedIn: www.linkedin.com/in/abid-ali-622a93333
