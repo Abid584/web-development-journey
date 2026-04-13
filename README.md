@@ -13,7 +13,7 @@ from absolute beginner to full-stack capable.
 - react/ : Coming soon
 - Mern/ : Coming soon
 
-## Note
+## Note 
 Every file here was written and practiced by me personally,
 not copied from tutorials.
  
