@@ -41,8 +41,6 @@ the page. All interactivity is handled through JavaScript DOM manipulation.
 - CSS3
 - Vanilla JavaScript (DOM API)
 
-## Live Preview
-Coming soon
 
 ## Course
 The Complete JavaScript Course by Jonas Schmedtmann on Udemy
