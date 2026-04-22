@@ -1,5 +1,5 @@
 # Web Development Journey
-
+ 
 A complete record of my self-taught web development journey,
 from absolute beginner to full-stack capable.
 
