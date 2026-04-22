@@ -6,7 +6,7 @@ project while learning JavaScript with Jonas Schmedtmann on Udemy.
 ## About The Project
 
 The player guesses a secret number between 1 and 20. The game tracks 
-your score, saves your highscore, and can be reset without refreshing 
+your score, saves your highscore, and can be reset without refreshing  
 the page. All interactivity is handled through JavaScript DOM manipulation.
 
 ## How To Play
