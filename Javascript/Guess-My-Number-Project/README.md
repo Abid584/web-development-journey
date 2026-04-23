@@ -9,7 +9,7 @@ The player guesses a secret number between 1 and 20. The game tracks
 your score, saves your highscore, and can be reset without refreshing  
 the page. All interactivity is handled through JavaScript DOM manipulation.
 
-## How To Play
+## How To Play 
 
 1. Enter a number between 1 and 20
 2. Click Check to see if your guess is correct
