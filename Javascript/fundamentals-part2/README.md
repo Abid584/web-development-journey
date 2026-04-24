@@ -6,7 +6,7 @@ Building on the basics — this part dives into **functions**, **arrays**, **obj
 
 ## 📚 Table of Contents
 
-1. [Strict Mode](#1-strict-mode)
+1. [Strict Mode](#1-strict-mode) 
 2. [Functions](#2-functions)
 3. [Function Declarations vs. Expressions](#3-function-declarations-vs-expressions)
 4. [Arrow Functions](#4-arrow-functions)
