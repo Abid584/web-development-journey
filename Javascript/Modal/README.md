@@ -31,6 +31,7 @@ Three buttons trigger the same modal window, which can be dismissed in multiple 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Abid584/web-development-journey.git
+   cd web-development-journey/Javascript/Modal
    ```
 
 2. **Open in browser**
