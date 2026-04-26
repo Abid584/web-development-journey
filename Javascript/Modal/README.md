@@ -30,8 +30,7 @@ Three buttons trigger the same modal window, which can be dismissed in multiple 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/modal-window.git
-   cd modal-window
+   git clone [https://github.com/your-username/modal-window.git](https://github.com/Abid584/web-development-journey.git)
    ```
 
 2. **Open in browser**
