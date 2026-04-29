@@ -2,7 +2,7 @@
  
 A complete record of my self-taught web development journey,
 from absolute beginner to full-stack capable.
-
+ 
 ## Courses
 - Build Responsive Real-World Websites with HTML and CSS - Jonas Schmedtmann (Completed March 2026)
 - The Complete JavaScript Course - Jonas Schmedtmann (In Progress)
