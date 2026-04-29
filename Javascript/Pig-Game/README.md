@@ -9,7 +9,7 @@ A two-player dice game built with vanilla JavaScript as part of my **JavaScript 
 ## How to Play
 
 - Players take turns **rolling the dice**
-- Each roll adds to the **current (temporary) score**
+- Each roll adds to the **current (temporary) score** 
 - If you roll a **1**, your current score is lost and the turn passes to the other player
 - Click **Hold** to save your current score to your total and pass the turn
 - First player to reach **100 points wins!** 🏆
