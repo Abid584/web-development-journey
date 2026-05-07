@@ -12,7 +12,7 @@ from absolute beginner to full-stack capable.
 - javascript/ : Topic-wise practice files and projects from the JS course
 - react/ : Coming soon
 - Mern/ : Coming soon
-
+ 
 ## Note  
 Every file here was written and practiced by me personally,
 not copied from tutorials.
