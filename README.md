@@ -10,7 +10,7 @@ from absolute beginner to full-stack capable.
 ## What's Inside
 - html-css/ : Projects and practice files from the HTML & CSS course
 - javascript/ : Topic-wise practice files and projects from the JS course
-- react/ : Coming soon
+- react/ : Coming soon 
 - Mern/ : Coming soon
  
 ## Note  
