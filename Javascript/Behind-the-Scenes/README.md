@@ -6,7 +6,7 @@ A hands-on practice module exploring the core mechanics of JavaScript — how th
 
 ## 📚 Topics Covered
 
-### 1. Scoping in Practice
+### 1. Scoping in Practice 
 - How the **scope chain** works across nested functions
 - Difference between `var`, `let`, and `const` in terms of block scope
 - Variable shadowing (creating a new variable with the same name as an outer scope variable)
