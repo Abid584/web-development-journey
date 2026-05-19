@@ -1,15 +1,16 @@
 # 📦 Data Structures and Modern Operators
 
-A hands-on JavaScript practice project covering core ES6+ data structures and modern language features. Built as part of a structured web development / JavaScript curriculum, this project works through concepts progressively using a restaurant simulation and a football (soccer) betting app as running examples.
+A hands-on JavaScript practice project covering core ES6+ data structures and modern language features. Built as part of a structured web development / JavaScript curriculum, this project works through concepts progressively across two files: `script.js` (topic walkthroughs with a restaurant and football app) and `exercises.js` (guided exercises driven by a real books dataset).
 
 ---
 
 ## 📁 Project Structure
 
 ```
-├── index.html       # Minimal HTML shell that loads the script
-├── script.js        # All JavaScript exercises and coding challenges
-└── .prettierrc      # Prettier formatter config (single quotes, no arrow-function parens)
+├── index.html        # Minimal HTML shell that loads the script
+├── script.js         # Lecture examples and topic walkthroughs (commented-out sections)
+├── exercises.js      # Guided exercises using a books dataset, with solutions
+└── .prettierrc       # Prettier formatter config (single quotes, no arrow-function parens)
 ```
 
 ---
@@ -102,16 +103,49 @@ A hands-on JavaScript practice project covering core ES6+ data structures and mo
 
 ## 🏋️ Coding Challenges
 
-Four progressively harder challenges are embedded in `script.js`:
+Four progressively harder challenges appear across both files:
 
-| Challenge | Theme | Key Skills |
-|-----------|-------|-----------|
-| **#1** | Football betting app — team data | Array/object destructuring, spread, rest, short-circuit |
-| **#2** | Football betting app — odds & scorers | `for…of`, `Object.entries()`, dynamic object building |
-| **#3** | Football betting app — game events log | Maps, Sets, iteration |
-| **#4** | underscore_case → camelCase converter | String methods, DOM interaction, `textarea` + `button` |
+| Challenge | File | Theme | Key Skills |
+|-----------|------|-------|-----------|
+| **#1** | `script.js` / `exercises.js` | Football betting app — team data | Array/object destructuring, spread, rest, short-circuit |
+| **#2** | `script.js` / `exercises.js` | Football betting app — odds & scorers | `for…of`, `Object.entries()`, dynamic object building |
+| **#3** | `script.js` / `exercises.js` | Football betting app — game events log | Maps, Sets, iteration |
+| **#4** | `script.js` / `exercises.js` | underscore_case → camelCase converter | String methods, DOM interaction, `textarea` + `button` |
 
 Each challenge includes a problem statement, test data, expected output, and a commented-out solution — great for attempting first, then checking the answer.
+
+---
+
+## 📖 exercises.js — Books Dataset Exercises
+
+`exercises.js` provides a second layer of practice built around a `books` array of 8 real computer science and business book objects. Each exercise is a short task tied directly to a topic, with the solution commented out immediately below.
+
+**The `books` dataset includes properties like:**
+- `title`, `author` (string or array), `publisher`, `publicationDate`, `edition`
+- `keywords` (array), `pages`, `format`, `ISBN`, `language`, `programmingLanguage`
+- `onlineContent` (boolean), `highlighted` (boolean)
+- `thirdParty.goodreads` — nested object with `rating`, `ratingsCount`, `reviewsCount`, etc.
+
+**Exercises by topic:**
+
+| Topic | Sample Tasks |
+|-------|-------------|
+| **Destructuring Arrays** | Destructure first/second/third book; nested ratings array; default values for missing star counts |
+| **Destructuring Objects** | Extract `title`, `author`, `ISBN`; rename `keywords` → `tags`; default for missing `programmingLanguage`; reassign existing variables; deep-nested `goodreads.rating`; `printBookInfo()` with parameter destructuring |
+| **Spread Operator** | Merge authors from two books into a flat array; `spellWord()` that spreads a string |
+| **Rest Pattern** | Grab first keyword + rest; extract `publisher` and rest of book; `printBookAuthorsCount()` with rest params |
+| **Short-Circuit (`&&` / `\|\|`)** | `hasExamplesInJava()` returning true or fallback string; loop printing books with `onlineContent` |
+| **Nullish Coalescing (`??`)** | Loop flagging books missing the `onlineContent` property entirely |
+| **Logical Assignment** | Add missing `edition` property with `\|\|=`; un-highlight low-rated books with `&&=` |
+| **`for…of` Loop** | Sum all pages; collect all authors into a flat array; print numbered author list |
+| **Enhanced Object Literals** | Build a new book object from a `bookData` array using computed property names; shorthand `pages` property |
+| **Optional Chaining (`?.`)** | `getFirstKeyword()` — safely access `keywords[0]` without throwing |
+| **Looping Objects** | Build an `entries` array from `Object.keys()` then fill values with `Object.values().entries()`; compare with `Object.entries()` |
+| **Sets** | Collect all keywords, deduplicate with a Set, add/delete items, convert back to array, clear |
+| **Maps** | Create a book Map from scratch; `.set()`, `.get()`, `.size`, `.has()`; convert book object to Map; loop for numeric-value keys |
+| **Strings Part 1** | Index into ISBN; find/extract words with `indexOf` / `slice`; `isContributor()` checking for `"(Contributor)"` suffix |
+| **Strings Part 2** | `normalizeAuthorName()` — trim, capitalize, strip contributor tag; `.replace()`; `logBookTheme()` using `startsWith`/`includes`/`endsWith` |
+| **Strings Part 3** | `logBookCategories()` — split semicolon string; `getKeywordsAsString()` — deduplicate and join; `logBookChapters()` — `padEnd` formatting |
 
 ---
 
@@ -122,8 +156,9 @@ No build tools or dependencies required.
 1. Clone or download the repository.
 2. Open `index.html` in any modern browser.
 3. Open the browser **DevTools Console** (`F12` → Console tab) to see all output.
+4. To run exercises, swap the `<script>` tag in `index.html` to point at `exercises.js`, or add a second `<script>` tag.
 
-> Most exercise code is wrapped in `/* ... */` block comments so only selected sections run at a time. Uncomment a block to experiment with it.
+> All exercise and example code is wrapped in `// ...` line comments or `/* ... */` block comments so only selected sections run at a time. Uncomment a block to experiment with it.
 
 ---
 
@@ -145,7 +180,25 @@ Formatted with [Prettier](https://prettier.io/) using the following config (`.pr
 
 ## 📌 Key Data Objects Used Throughout
 
-**`restaurant`** — A mock Italian restaurant object used across most examples:
+**`books`** — An 8-item array of real book objects used throughout `exercises.js`. Each book has up to 14 properties including deeply nested Goodreads ratings. Sample entry:
+```js
+{
+  title: 'Algorithms',
+  author: ['Robert Sedgewick', 'Kevin Wayne'],
+  publisher: 'Addison-Wesley Professional',
+  edition: 4,
+  keywords: ['computer science', 'programming', 'algorithms', ...],
+  pages: 976,
+  programmingLanguage: 'Java',
+  onlineContent: true,
+  highlighted: true,
+  thirdParty: {
+    goodreads: { rating: 4.41, ratingsCount: 1733, ... }
+  }
+}
+```
+
+**`restaurant`** — A mock Italian restaurant object used across `script.js` examples:
 ```js
 {
   name: 'Classico Italiano',
@@ -184,6 +237,7 @@ Formatted with [Prettier](https://prettier.io/) using the following config (`.pr
 ## 💡 Tips for Learning
 
 - Work through `script.js` **top to bottom** — later sections build on earlier concepts.
+- After each topic in `script.js`, try the matching exercises in `exercises.js` before looking at the solutions.
 - Before uncommenting a solution, try writing your own first.
 - Use the browser console freely — add extra `console.log()` calls to inspect values at any step.
-- The string methods section near the bottom is a great standalone reference to bookmark.
+- The string methods section is a great standalone reference to bookmark.
