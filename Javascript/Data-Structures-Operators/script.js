@@ -14,7 +14,7 @@ const openingHours = {
     open: 0, // Open 24 hours
     close: 24,
   },
-};
+}; 
 
 const restaurant = {
   name: 'Classico Italiano',
